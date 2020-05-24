@@ -11,6 +11,7 @@ public class ResorcePlanningApplication {
 		SpringApplication.run(ResorcePlanningApplication.class, args);
 // mysql user punit/punit   and admin password is admin
 		//git username punitvnsit03
+		// one user created with punitvnsit@gmail.com/Punit@sw......
 	}
 
 }
