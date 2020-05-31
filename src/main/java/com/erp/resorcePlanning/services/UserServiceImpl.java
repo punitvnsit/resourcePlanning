@@ -17,6 +17,7 @@ import com.erp.resorcePlanning.model.Role;
 import com.erp.resorcePlanning.model.User;
 import com.erp.resorcePlanning.repository.UserRepository;
 import com.erp.resorcePlanning.web.dto.UserRegistrationDto;
+
 @Service
 public class UserServiceImpl implements UserService {
 

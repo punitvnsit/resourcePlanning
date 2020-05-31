@@ -1,11 +1,28 @@
 package com.erp.resorcePlanning.model;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 import java.util.Collection;
+import java.util.UUID;
 
 @Entity
 @Table(uniqueConstraints = @UniqueConstraint(columnNames = "email"))
 public class User {
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @Id
+//    @GeneratedValue(generator =  "UUID")
+//    @GenericGenerator(
+//            name = "UUID",
+//            strategy = "org.hibernate.id.UUIDGenertor",
+//            parameters = {
+//                @org.hibernate.annotations.Parameter(
+//                    name = "uuid_gen_strategy_class",
+//                    value = "org.hibernate.id.uuid.CustomVersionOneStrategy"
+//                )
+//            }
+//    )
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
